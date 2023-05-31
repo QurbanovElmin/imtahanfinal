@@ -1,0 +1,90 @@
+header{
+    width: 100%;
+    background-image: url(https://preview.colorlib.com/theme/theestate/images/home_slider_bcg.jpg.webp);
+    height: 600px;
+
+    nav{
+        max-width: 1140px;
+        height: 100px;
+        margin: auto;
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .fa-solid{
+            display: none;
+        }
+        .the_estate{
+            padding-left: 30px;
+            img{
+            padding-left: 30px;
+            }
+            h1{
+                color: white;
+            }
+        }
+        ul{
+            display: flex;
+          gap: 30px;
+
+            li{
+
+                a{
+                    color:WHITE;
+                }
+            }
+        }
+        .number{
+           padding: 10px 30px;
+            background-color: orangered;
+            color: white;
+            margin-right: 30px;
+            
+        }
+
+    }
+    .container_header{
+        max-width: 1140px;
+        width: 100%;
+        margin: auto;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1{
+            font-size: 70px;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+      
+    
+    
+    }
+
+}
+
+@media screen and (max-width:756px) {
+    header{
+        nav{
+            ul{
+                display: none;
+            
+            }
+            .number{
+                display: none;
+            }
+            .fa-solid{
+                display: block;
+                padding-right: 30px;
+                font-size: 20px;
+                color: white;
+            }
+        }
+        .container_header{
+            h1{
+                font-size: 30px;
+            }
+        }
+    }
+    
+}
